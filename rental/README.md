@@ -5,10 +5,10 @@ This directory contains the full workflow for analysing Rental data in Singapore
 ## Folder Structure
 
 - `rental/`
-  - `PM2 (EDA).zip/`
+  - `PM2 (EDA)/`
     - `PM2.ipynb` — Progress Meeting 2 analysis notebook  
     - `RentingOutofFlats2025.csv` — Input file for PM2 consisting of all rental transactions in Singapore 2021 onwards  
-  - `PM3 (ML + Worth It).zip/`
+  - `PM3 (ML + Worth It)/`
     - `PM3.ipynb` — Progress Meeting 3 analysis notebook covering Model Training & Worth It analysis  
     - `Input/` — All input files (rental data transactions & amenities locations) required for the notebook to run
     - `Intermediate Files/` — 2 files pre uploaded to save user time ~10 hours where `PM3.ipynb` geocodes transactions and calculates amenities distances   
@@ -19,11 +19,9 @@ This directory contains the full workflow for analysing Rental data in Singapore
 ## Running the Code
 
 -  `PM2 (EDA)`
-    - Unzip `PM2 (EDA).zip`
     - Run `PM2` Notebook
       
 -  `PM3 (ML + Worth It)`
-    - Unzip `PM3 (ML + Worth It).zip`
     - Run `PM3` Notebook
       - The entire code takes ~10 hours to complete, hence to make the result production faster, skip code block 4 & 7 (tagged with a comment to skip)
       - Files generated from block 4 & 7 are present in the `Intermediary Files` folder to shorten code run time
