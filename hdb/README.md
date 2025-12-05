@@ -12,10 +12,10 @@ This directory contains the full workflow for analysing HDB resale prices and ev
     - `plots/` — Figures used in PM2  
   - `pm3/`
     - `age_cohort_value_scores.ipynb` — Age-based preference weighting and scoring  
-    - `analysis.ipynb` — Main PM3 analysis pipeline  
-    - `Data/`
-      - `training.ipynb` — Model training and feature setup  
-      - `worth_it_by_town.ipynb` — Town-level worth-the-money evaluation  
+    - `analysis.ipynb` — Main PM3 analysis pipeline
+    - `training.ipynb` — Model training and feature setup  
+    - `worth_it_by_town.ipynb` — Town-level worth-the-money evaluatio
+    - `Data/`n  
   - `README.md`
 
 ---
@@ -30,3 +30,4 @@ This directory contains the full workflow for analysing HDB resale prices and ev
 - Prepared figures and insights for PM2 and PM3 presentations.
 
 If you’d like, I can also add badges, a project title, or a cleaner ASCII tree.
+
